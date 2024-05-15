@@ -1,0 +1,319 @@
+header {
+    background-image: url("background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+nav p {
+    color: #fff;
+    font-weight: 700;
+    padding: 0px 16px;
+    font-size: 25px;
+}
+
+nav ul a li {
+    padding: 20px;
+    color: #fff;
+}
+
+nav ul a li:hover {
+    color: #dec08c;
+}
+
+nav ul a button {
+    padding: 12px 20px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    transition: 0.5s all;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul a button:hover {
+    background-color: transparent;
+}
+
+#header-button-01 {
+    background-color: #dec08c;
+    transition: 0.5s all;
+}
+
+#header-button-01:hover {
+    background-color: transparent;
+}
+
+.Flavor {
+    position: relative;
+    color: #dc143c; 
+    font-weight: bold;
+    white-space: nowrap; 
+}
+
+
+.cs-container {
+    text-align: center;
+}
+
+.cs-container p {
+    color: #dec08c;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 125px 0;
+}
+
+.cs-container h1 {
+    width: 40%;
+    height: 45px;
+    margin: 0 auto;
+    display: block;
+    font-size: 45px;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    padding: 25px;
+    white-space: nowrap;
+}
+
+
+.cs-container button {
+    font-size: 20px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    background-color: #dc143c;
+    color: #dec08c;
+    padding: 16px 20px;
+    transition: 0.5s all;
+    margin: 165px 0px;
+}
+
+.cs-container button:hover {
+    transform: scale(1.2);
+    background-color: transparent;
+}
+
+/* top-notch section start */
+.cs-top-notch {
+    margin: 10rem 0px;
+}
+
+.cs-top-notch h1 {
+    font-size: 62px;
+    color: #fff;
+    margin: 3rem;
+}
+
+.cs-top-notch-order {
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 18px;
+}
+
+.cs-top-notch-order button, .cs-sp-desh div button, .cs-form button {
+    background-color: #ff0;
+    border: none;
+    margin: 12px;
+    border-radius: 8px;
+    padding: 16px 20px;
+    transition: 0.5s all;
+}
+
+.cs-top-notch-order button:hover, .cs-sp-desh div button:hover, .cs-form button:hover {
+    background-color: #ffbe00;
+}
+
+.cs-top-notch-order div img {
+    margin: 36px 0px;
+    width: 80%;
+    padding: 0px;
+    border-radius: 12px;
+}
+
+/* OUR STORY section */
+.cs-our-story div img {
+    width: 400px;
+}
+
+/* sp-desh */
+.cs-sp-desh {
+    justify-content: space-around;
+}
+
+#cs-sp-desh-img1 {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.cs-sp-desh div h4, .cs-our-story div p {
+    line-height: 3vh;
+}
+
+.cs-sp-desh h2 {
+    margin: 20px 0px;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+/* cs-sp-menu */
+.cs-sp-menu div {
+    padding: 0px 50px;
+}
+
+/* cs-form */
+.cs-form {
+    width: 50%;
+}
+
+form input, form textarea {
+    color: #fff;
+    width: 50%;
+    background-color: transparent;
+    border: 2px solid yellow;
+    border-radius: 8px;
+    padding: 13px;
+    margin: 0px 3px;
+}
+
+form textarea {
+    width: 94%;
+}
+
+.cs-form-text {
+    line-height: 2;
+}
+
+.cs-form-text b {
+    color: #fff;
+    font-weight: bold;
+}
+
+.cs-form-text p {
+    font-size: 14px;
+    color: #FFF;
+    opacity: 0.5;
+}
+
+/* cs-Strength */
+.cs-Strength div {
+    border: 1px solid;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 32px;
+}
+
+.cs-Strength h4 {
+    padding: 13px 0px;
+}
+
+/* footer */
+.cs-footer-txt {
+    padding: 20px;
+    margin: 0px 8rem;
+    align-items: center;
+    line-height: 3vh;
+}
+*{
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    letter-spacing: .05em;
+}
+body{
+    background-color:  #0e0d0c;
+}
+.f-row{
+    flex-direction: row;
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+}
+.space-top-bottom{
+    margin: 100px 0px;
+}
+.color01{
+    color: #dec08c;
+}
+.fff{
+    color: #fff;
+}
+.color02{
+    color: #dc143c;
+}
+.d-flex{
+    display: flex;
+}
+.d-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+.js-cen{
+    justify-content: center;
+}
+.js-ar{
+    justify-content: space-around;
+}
+.js-bt{
+    justify-content: space-between;
+}
+.al-cen{
+    align-items: center;
+}
+.tx-cn{
+    text-align: center;
+}
+h1{
+    font-size: 34px;
+    margin: 25px 0px;
+}
+@media only screen and (max-width: 950px){
+    nav ul li{
+        display: none;
+    }
+    .d-flex{
+        flex-wrap: wrap;
+        flex-basis: 15%;
+    }
+    .f-col{
+        flex-direction: column;
+    }
+    .main {
+        width: 98%;
+        margin: 0 auto;
+    }
+    body {
+        background-color: #0e0d0c;
+        margin: 8px;
+    }
+    header nav ul{
+        display: none!important;
+    }
+    .cs-container h2 {
+        width: 25%;
+        font-size: 10px!important;
+    }
+    .cs-container h1::before {
+        font-size: 10px!important;
+    }
+    .d-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+    }
+    .cs-sp-menu  div {
+        padding: 5px;
+        justify-content: flex-start;
+    }
+    .cs-form {
+        width: 100%;
+    }
+    form textarea {
+        width: 50%;
+    }
+    #cs-sp-desh-img1 {
+    width: 90%;
+    border-radius: 10px;
+}
+}
